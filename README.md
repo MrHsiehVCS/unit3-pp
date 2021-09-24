@@ -43,3 +43,43 @@ Enter a year (or enter STOP to end):  STOP
 - Attempted code in all **YOUR CODE HERE** areas: 40 points
 - Correctly updated all comments: 20 points
 - Passed all Test Cases: 40 points
+
+## Bonus
+
+You now have all you need (variables, if statements, Scanner) to make a choose your own adventure game!
+Make one for Mr. Hsieh and your friends to play. 
+
+### Simple Example
+
+```java
+You want to go to the bathroom. 
+You are currently in class. 
+What would you like to do?
+(1) Go to the bathroom
+(2) Raise your hand
+(3) wait
+Your choice: 3
+
+You wait for a long time. You can't hold it anymore. It's explosive. 
+GAME OVER. 
+```
+
+### Complex Example: 
+```java
+You wake up in a wagon, your arms are shackled together. 
+A man in rags, probably a fellow prisoner, speaks to you. 
+"Hey you, you're finally awake."
+What do you do you? (type 'help' for a list of options)
+> help
+---------
+Help
+---------
+look - see what is around you
+use <item> - use an item
+go <direction> - move in a particular direction
+Other words might exist based on context! 
+---------
+What do you do you? (type 'help' for a list of options)
+> look
+You see blah blah blah
+```
