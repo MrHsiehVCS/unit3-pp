@@ -49,6 +49,8 @@ Enter a year (or enter STOP to end):  STOP
 You now have all you need (variables, if statements, Scanner) to make a choose your own adventure game!
 Make one for Mr. Hsieh and your friends to play. 
 
+Make a new file with a class that has it's own main function, and have the game run from there.
+
 ### Simple Example
 
 ```java
