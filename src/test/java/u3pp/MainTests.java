@@ -22,10 +22,6 @@ public class MainTests {
     @Test
     void main_whenCalledWithValidInput_FormatsOutPutCorrectly() throws Exception {
         String EOL = System.getProperty("line.separator");
-        // String[] expectedText = { "Enter", "a", "year", "(or", "enter", "STOP", "to", "end):", "100", "is", "not", "a",
-        //         "leap", "year", "Enter", "a", "year", "(or", "enter", "STOP", "to", "end):", "1580", "is", "not", "a",
-        //         "leap", "year","Enter", "a", "year", "(or", "enter", "STOP", "to", "end):", "2020", "is", "a", "leap",
-        //         "year", "Enter", "a", "year", "(or", "enter", "STOP", "to", "end):" };
         String expectedText = "Enter a year (or enter STOP to end): " + EOL
             + "100 is not a leap year" + EOL
             + "Enter a year (or enter STOP to end): " + EOL
