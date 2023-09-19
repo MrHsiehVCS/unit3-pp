@@ -42,18 +42,23 @@ Enter a year (or enter STOP to end):  STOP
 
 ## Grading Breakdown
 
-- Attempted code in all **YOUR CODE HERE** areas: 40 points
-- Correctly updated all comments: 20 points
-- Passed all Test Cases: 40 points
+- Code compiles & runs without errors: 1 pts
+- Formatting/indentation: 2 points
+- All code commented: 2 points
+- No public methods/attributes besides the ones specified: 2 point
+- All code is DRY (Don't repeat yourself): 3 points
+- Passes all test cases: 20 points
 
-## Bonus
+*Total: 30 points*
 
-You now have all you need (variables, if statements, Scanner) to make a choose your own adventure game!
+## Bonus - Text Adventure Game
+
+You now have all you need (variables, if statements, Scanner) to make a choose your own text-based adventure game!
 Make one for Mr. Hsieh and your friends to play. 
 
 Make a new file with a class that has it's own main function, and have the game run from there.
 
-### Simple Example
+### Text Adventure Game - Simple Example
 
 ```java
 You want to go to the bathroom. 
@@ -68,12 +73,12 @@ You wait for a long time. You can't hold it anymore. It's explosive.
 GAME OVER. 
 ```
 
-### Complex Example: 
+### Text Adventure Game - Complex Example
 ```java
 You wake up in a wagon, your arms are shackled together. 
 A man in rags, probably a fellow prisoner, speaks to you. 
 "Hey you, you're finally awake."
-What do you do you? (type 'help' for a list of options)
+What do you do? (type 'help' for a list of options)
 > help
 ---------
 Help
@@ -83,7 +88,9 @@ use <item> - use an item
 go <direction> - move in a particular direction
 Other words might exist based on context! 
 ---------
-What do you do you? (type 'help' for a list of options)
+What do you do? (type 'help' for a list of options)
 > look
-You see the green scenery passing by. You see a man sitting near you. etc. etc. 
+You see the green scenery passing by. You see a man sitting near you.
+...
+... etc
 ```
