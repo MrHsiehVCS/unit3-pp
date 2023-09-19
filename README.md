@@ -60,7 +60,7 @@ Make a new file with a class that has it's own main function, and have the game 
 
 ### Text Adventure Game - Simple Example
 
-```java
+```
 You want to go to the bathroom. 
 You are currently in class. 
 What would you like to do?
@@ -74,7 +74,7 @@ GAME OVER.
 ```
 
 ### Text Adventure Game - Complex Example
-```java
+```
 You wake up in a wagon, your arms are shackled together. 
 A man in rags, probably a fellow prisoner, speaks to you. 
 "Hey you, you're finally awake."
@@ -92,5 +92,6 @@ What do you do? (type 'help' for a list of options)
 > look
 You see the green scenery passing by. You see a man sitting near you.
 ...
-... etc
+...
+etc
 ```
